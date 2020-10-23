@@ -4,7 +4,7 @@
 
 Для проксирования требуется обратиться во внешний https! (не путать обращение по wss внешний)
 
-Открываем настройки для домена (пример: nano /home/user/conf/web/domain1.com.nginx.ssl.conf):
+Открываем настройки для домена (пример: nano /home/[admin]/conf/web/domain1.com.nginx.ssl.conf):
 
 <pre>
     location ~* ^/ws/$ {
